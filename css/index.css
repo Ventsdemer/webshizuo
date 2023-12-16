@@ -13,7 +13,9 @@
     background-color: red;
     color: #fff;
 }
-
+.header a{
+    text-decoration: none;
+}
 .header-right{
     float: right;
     width: 138px;
@@ -47,7 +49,7 @@
 }
 .nav a{
     color: #fff;
-    font-size: 14px;
+    font-size: 17px;
     text-decoration: none;
 }
 .nav a>li:hover{
@@ -62,8 +64,56 @@
 a>.active{
     color: #000;
 }
+/* 导航样式结束 */
+
+/* 页面 */
 .bender>img{
     position: relative;
     width: 100%;
 }
-/* 导航样式结束 */
+
+.page{
+    width: 1180px;
+    margin: 0 auto;
+    background-color: #f6f4f0;
+}
+.page>img{
+   position: relative;
+   width: 100%;
+}
+
+.page-header{
+    font-size: 25px;
+    text-align: left;
+    color: #bb00ff;
+    background-color: aqua;
+    
+}
+.page-1{
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    background: url(../image/1280.webp) no-repeat center center;
+
+}
+.page-2{
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    background: url(../image/u=3803430652\,1225809318&fm=253&fmt=auto&app=138&f=JPEG.webp) no-repeat center center;
+    background-size: 100% auto;
+}
+.page-3{
+    font-size: 18px;
+    text-align: left;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+.page-3>img{
+    width: 100%;
+}
+.page-0{
+    text-align: left;
+    text-indent: 4ex;
+}
+/* 页面结束 */
