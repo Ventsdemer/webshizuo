@@ -6,6 +6,11 @@
     font-size: 12px;
     line-height: 55px;
 }
+
+.header-left:hover{
+    transition: transform 0.3s;
+    transform: scale(1.2);
+}
 .header-left{
     float: left;
     width: 179px;
@@ -57,6 +62,8 @@
 }
 .nav li:hover{
     background-color: rgb(12, 129, 133);
+    transition: transform 0.3s;
+    transform: scale(1.2);
 }
 .active{
     background-color: aqua;
@@ -111,9 +118,19 @@ a>.active{
 }
 .page-3>img{
     width: 100%;
+    
 }
+.page-3>img:hover{
+    transition: transform 0.3s;
+    transform: scale(1.02);
+}
+
 .page-0{
     text-align: left;
     text-indent: 4ex;
+}
+.page>img{transition: transform 1s ease;}
+.page>img:hover{
+    transform: scale(1.1);
 }
 /* 页面结束 */
