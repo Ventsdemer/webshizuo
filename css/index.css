@@ -8,12 +8,12 @@
 }
 
 .header-left:hover{
-    transition: transform 0.3s;
+    transition: 0.3s;
     transform: scale(1.2);
 }
 .header-left{
     float: left;
-    width: 179px;
+    width: 20%;
     height: 54px;
     background-color: red;
     color: #fff;
@@ -23,7 +23,7 @@
 }
 .header-right{
     float: right;
-    width: 138px;
+    width: 15%;
     height: 54px;
     border-left: 1px solid #dadada;
     color: #333;
@@ -31,6 +31,14 @@
 /* 头部样式结束 */
 
 /* 导航样式开始 */
+
+/* 让list表格去掉标点和占位 */
+li{list-style: none;
+}
+ul{
+    padding-left: 0px;
+}
+/* 让list表格去掉标点和占位 */
 .nav{
     z-index: 666;
     position: sticky;
@@ -40,36 +48,35 @@
     line-height: 60px;
     background-color: black;
 }
-
 /* 水平居中的容器，不设置高度 */
 .wrap{
-    width: 1180px;
+    width: 80%;
     margin: 0 auto;
 }
 .nav li{
-    float:left;
-    width: 12.3%;
-    border-left:1px solid white;
-    border-right:1px solid white ;
+    float: left;
+    background-color: #000;
+    width: 12.5%;
+    box-sizing: border-box;
+    border-left: 1px solid #e41010;
+    border-right:1px solid #ec1919;
 }
 .nav a{
     color: #fff;
-    font-size: 17px;
+    font-size: 100%;
     text-decoration: none;
 }
-.nav a>li:hover{
-    color: #000;
-}
+
 .nav li:hover{
     background-color: rgb(12, 129, 133);
-    transition: transform 0.3s;
+    transition: color 10s;
+    transition: transform 0.9s;
     transform: scale(1.2);
-}
-.active{
-    background-color: aqua;
+    color: #000;
 }
 a>.active{
     color: #000;
+    background-color: aqua;
 }
 /* 导航样式结束 */
 
@@ -80,7 +87,7 @@ a>.active{
 }
 
 .page{
-    width: 1180px;
+    width: 80%;
     margin: 0 auto;
     background-color: #f6f4f0;
 }
